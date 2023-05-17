@@ -6,7 +6,7 @@
 /*   By: fmarquar <fmarquar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/28 13:31:28 by fmarquar          #+#    #+#             */
-/*   Updated: 2023/05/16 16:58:12 by fmarquar         ###   ########.fr       */
+/*   Updated: 2023/05/17 16:33:48 by fmarquar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@ void	sort_radix(t_stk *stk_a, t_stk *stk_b)
 	int	j;
 
 	j = 0;
-	while (stk_is_sorted(stk_a) == false && j <= 10)
+	while (stk_is_sorted(stk_a) == false)
 	{
 		i = 0;
 		while (stk_a->top > i)

@@ -6,13 +6,13 @@
 /*   By: fmarquar <fmarquar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/17 11:32:15 by fmarquar          #+#    #+#             */
-/*   Updated: 2023/05/16 16:55:22 by fmarquar         ###   ########.fr       */
+/*   Updated: 2023/05/17 16:43:15 by fmarquar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "push_swap.h"
 
-int	main2(int argc, char **argv)
+int	main(int argc, char **argv)
 {
 	t_stk		*stk_a;
 	t_stk		*stk_b;
@@ -41,8 +41,9 @@ int	main2(int argc, char **argv)
 	return (0);
 }
 
-int	main(int argc, char **argv)
+/* int	main(int argc, char **argv)
 {
 	main2(argc, argv);
 	system("leaks push_swap");
 }
+ */
