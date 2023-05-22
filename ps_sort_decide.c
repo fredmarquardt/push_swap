@@ -6,7 +6,7 @@
 /*   By: fmarquar <fmarquar@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/04/24 13:18:32 by fmarquar          #+#    #+#             */
-/*   Updated: 2023/05/16 16:58:59 by fmarquar         ###   ########.fr       */
+/*   Updated: 2023/05/22 10:51:04 by fmarquar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,6 +37,8 @@ void	add_order(t_stk *stk)
 
 void	decide_sort_algo(t_stk *stk_a, t_stk *stk_b)
 {
+	if (stk_is_sorted(stk_a) == true)
+		return ;
 	if (stk_a->height == 2)
 		sort2(stk_a);
 	if (stk_a->height == 3)
